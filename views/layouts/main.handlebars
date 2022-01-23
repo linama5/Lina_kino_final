@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Kino Luleå</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <!-- Logo image -->
+            <div class="header-logo-container">
+                <img src="/src/img/logo.png" alt="logo image">
+            </div>
+            <!-- Navigation menu -->
+            <div class="menu-container">
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">FILMER</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">LIVE PÅ BIO</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">BARNBIO</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">EVENEMANG</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">BILJETTER</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">OM OSS</a>
+                </div>
+                <div class="menu-dropdown">
+                    <a class="menu-link" href="#">IN ENGLISH</a>
+                </div>
+            </div>
+            <!-- Movie advert -->
+            <div class="hero-ad-container">
+                <!-- <p>Movie advertisements 1100x200px</p> -->
+                <img src="/src/img/banner1.jpg" alt="banner1">
+            </div>
+        </nav>
+    </header>
+    <main>
+        {{{body}}}
+        <!-- Right sidebar -->
+        <div class="right-container">
+            <div class="right-container-content-article-small">
+                <a href="#"><img src="/src/img/rightContent/biljetter.jpg"></a>
+            </div>
+            <div class="right-container-content-search">
+                <input type="search" name="search" id="content-search">
+            </div>
+            <div class="right-container-content-calendar">
+                <h3>KALENDARIUM</h3>
+                <p class="right-container-title">Klicka på titel för information och på tid för att boka/köpa biljetter
+                </p>
+                <div>I DAG
+                    <div>KINO</div>
+                    <ul class="list-today-films">
+                        <li></li>
+                    </ul>
+                </div>
+                <div> I MORGON
+                    <div>KINO</div>
+                    <ul class="list-tomorrow-films">
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="bingo">
+            <a href="#">
+                <li>Folkets Bio i Lund | Kino:</li>
+            </a>
+            <a href="https://www.google.se/maps/place/Kyrkogatan+3,Lund">
+                <li>Kyrkogatan 3</li>
+            </a>
+            <a href="#">
+                <li>,30 30 80 | Södran:</li>
+            </a>
+            <a href="https://www.google.se/maps/place/Stora-S%C3%B6dergatan+64,Lund">
+                <li>Stora Södergatan 64:</li>
+            </a>
+            <a href="#">
+                <li>64, 046-13 10 50 |</li>
+            </a>
+            <a href="#">
+                <li>info@kinu.nu</li>
+            </a>
+        </div>
+    </footer>
+    <script src="/src/js/script.js"></script>
+</body>
+
+</html>
